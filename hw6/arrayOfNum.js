@@ -4,14 +4,16 @@
 
 
 
-const numberFunc=(sum, ...nums)=>{
-    if(nums.length===0){
-        return 0
-    }
-    for(let i=0; i<nums.length; i++){
-        sum+=nums[i]  
-    }
-    return sum
-}
+// const numberFunc=(sum, ...nums)=>{
+//     if(nums.length===0){
+//         return 0
+//     }
+//     for(let i=0; i<nums.length; i++){
+//         sum+=nums[i]  
+//     }
+//     return sum
+// }
 
-console.log(numberFunc(90,809));
+// console.log(numberFunc(90,809,23));
+
+
